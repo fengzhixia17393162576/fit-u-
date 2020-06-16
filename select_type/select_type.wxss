@@ -1,0 +1,29 @@
+.selection{
+  height: 1300rpx;
+  width: 100%;
+  background-color:whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ .food{
+  background-color:whitesmoke;
+    padding-top: 10%;
+}
+.daily{
+  background-color:PowderBlue;
+}
+.cosmetic{
+  background-color:PowderBlue;
+}
+.medicine{
+  background-color:PowderBlue;
+}
+.pic{
+    width: 35%;
+    height: 300rpx;
+    padding-top: 10%;
+    padding-left: 25%;
+    margin: 20rpx 3.666666%;
+    position: relative;
+}

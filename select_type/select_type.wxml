@@ -1,0 +1,34 @@
+<view class="selection">
+
+  <view class='pic'>
+        <image class="add_bg" src="../../image/1.jpg"
+        style="width:300rpx;height:300rpx;"></image>
+  </view> 
+  
+   <navigator url="../shenghuo/shenghuo">
+      <view class="food">
+         <button bindtap="breakfast">早餐</button>
+      </view>
+   </navigator>
+
+   <navigator url="../shenghuo1/shenghuo1">
+      <view class="daily">
+         <button bindtap="lunch">午餐</button>
+      </view>
+   </navigator>
+   
+
+   <navigator url="../shenghuo2/shenghuo2">
+      <view class="cosmetic">
+         <button bindtap="dinner" form-type="submit">晚餐</button>
+      </view>
+   </navigator>
+
+   <navigator url="../food/food">
+      <view class="medicine">
+         <button bindtap="others" form-type="submit">其他</button>
+      </view>
+   </navigator>
+
+  
+</view>
