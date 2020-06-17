@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="info">
+    <view class="title">早餐：</view>
+    <text class="content">您早餐吃的是：{{breakfast}},  摄入{{add1}}大卡</text>
+  </view>
+  <view class="info">
+    <view class="title">午餐：</view>
+    <text class="content">您午餐吃的是：{{lunch}},   摄入{{add2}}大卡</text>
+  </view>
+  <view class="info">
+    <view class="title">晚餐：</view>
+    <text class="content">您晚餐吃的是：{{dinner}},  摄入{{add3}}大卡</text>
+  </view>
+
+
+ <button bindtap="fooddetail">显示</button>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>

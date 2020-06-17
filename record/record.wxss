@@ -1,0 +1,24 @@
+/* pages/component/introduce/introduce.wxss */
+.container {
+  padding: 30rpx;
+}
+.title {
+  border-bottom: 1px solid #E6E7E7;
+  padding-bottom: 10rpx;
+  margin-bottom: 30rpx;
+}
+.info {
+  margin-bottom: 100rpx;
+}
+.footer {
+  font-size: 32rpx;
+  color: #9d9d9d;
+  text-align: center;
+  line-height: 32rpx;
+  margin-bottom: 20rpx;
+}
+.home {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+}
