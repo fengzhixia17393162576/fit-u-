@@ -1,0 +1,26 @@
+
+<view class="container">
+<view id="header">
+      <view wx:if="{{!hasUserInfo && canIUse}}" class="button1">
+    	 <button size="mini"open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      </view>
+      <view class="content" wx:else>
+       <image src="{{userInfo.avatarUrl}}" ></image>
+       <view class="nickname">{{userInfo.nickName}}</view>
+      </view>
+</view>
+
+  <navigator url="../me/me">
+    <view bindtap="me" class="option" hover-class="option-hover">
+      <image src="../../image/info.png" class="iconPre"></image>身体数据
+      <image src="../../image/right.png" class="right"></image></view>
+  </navigator>
+
+  <navigator url="../components/jilu/jilu">
+    <view bindtap="jilu" class="option" hover-class="option-hover">
+      <image src="../../image/template.png" class="iconPre"></image>卡路里日历
+      <image src="../../image/right.png" class="right"></image>
+    </view>
+  </navigator>
+  
+  </view>
