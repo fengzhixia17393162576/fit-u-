@@ -1,0 +1,39 @@
+<!--pages/components/specific1/specific.wxml-->
+<view class="container">
+  <view class="info">
+    <text class="content">最近，美国某杂志列出了一份运动热量消耗排行榜，以一个体重70公斤的人为例，计算出参与各项运动消耗的热量数目，供大家参考。</text>
+  </view>
+    <view class="info">
+    <text class="content">1、爬坡快走：1小时达650大卡。</text>
+  </view>
+
+ <view class="info">
+    <text class="content">2、慢跑：1小时消耗的热量则达到590大卡。</text>
+  </view>
+ <view class="info">
+    <text class="content">3、游泳：以自由泳为例，1小时为510大卡。</text>
+  </view>
+ <view class="info">
+    <text class="content">4、打篮球：1小时可消耗440大卡。</text>
+  </view>
+ <view class="info">
+    <text class="content">5、举重：1小时消耗440大卡热量。</text>
+  </view>
+ <view class="info">
+    <text class="content">6、徒步旅行：1小时是370大卡。</text>
+  </view>
+ <view class="info">
+    <text class="content">7、跳舞：1小时为330大卡。</text>
+  </view>
+
+ <view class="info">
+    <text class="content">8、家务：1小时为330大卡路里。</text>
+  </view> <view class="info">
+    <text class="content">9、骑自行车：时速低于16公里，每小时290大卡。</text>
+  </view>
+
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>

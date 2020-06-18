@@ -1,0 +1,72 @@
+<view class="select">
+  <view class="title"> </view> 
+</view> 
+
+
+<view class="selection">
+
+      <view class="food-item">
+      1.油条 270大卡/条 
+      </view>
+ 
+      <view class="food-item">
+      2.生煎  124大卡/个  
+      </view>
+   
+      <view class="food-item">
+      3.豆浆 40大卡/杯  
+      </view>
+    
+      <view class="food-item">
+       4.豆腐脑 120大卡/碗 
+      </view>
+       
+      <view class="food-item">
+      5.鲜肉小馄饨 500大卡/碗 
+      </view>
+
+       <view class="food-item">
+      6.猪肉包子  227大卡/个 
+      </view>
+
+</view>
+
+ <!--mask-->  
+<view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>  
+<!--content-->  
+<!--使用animation属性指定需要执行的动画-->  
+<view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">  
+  
+  <!--drawer content-->  
+  <view class="drawer_title">请输入套餐编号</view>  
+  <view class="drawer_content">  
+    <view class="top grid">  
+      <label class="title col-0">套餐编号</label>  
+      <input class="input_base input_h30 col-1" name="rName" bindinput="costInput"></input> 
+    </view>  
+     <view class="top bottom grid">  
+      <label class="title col-0">备注</label>  
+      <input class="input_base input_h30 col-1" name="bz" bindinput="noteInput"></input>  
+    </view>  
+  </view>  
+  <view class="btn_ok" data-statu="close" bindtap="btnClick">确定</view>  
+</view>  
+
+<view class="test">
+  <text>备注:{{note}}{{cost}}</text>
+</view>
+
+
+<!--月末生成月账单-->
+<view class="text3" wx:if="{{lastday}}">
+  <image src="/image/message.jpg "  bindtap="toGraph" class="image2"></image>
+</view>
+
+<!--录入开支信息-->
+<image src="/image/add.png" class="image3" mode="scaleToFill"  bindtap="powerDrawer" data-statu="open"></image>
+
+
+
+<view class="footer">
+         <text bindtap="backHome">回到首页</text>
+</view>

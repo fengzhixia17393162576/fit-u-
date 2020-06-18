@@ -1,0 +1,10 @@
+<!--pages/components/recommend2/recommend.wxml-->
+<view class="container">
+  <view class="info">
+    <text class="content">苹果  54 大卡（100克可食部分） </text>
+  </view>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>

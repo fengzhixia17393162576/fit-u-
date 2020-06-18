@@ -1,0 +1,15 @@
+<!--pages/components/specific/specific.wxml-->
+<view class="container">
+  <view class="info">
+    <text class="content">如果你的目标是减肥减脂，你需要创建热量赤字，摄入量小于消耗的热量。</text>
+  </view>
+    <view class="info">
+    <text class="content">而你要增加体重增肌，你则需要更多的热量，摄入的热量大于消耗的热量。</text>
+  </view>  <view class="info">
+    <text class="content">如果你仅仅希望维持现状，达到塑形的目的（体重不变，肌肉形态改变一些），则需要维持摄入量与消耗热量之间的平衡。</text>
+  </view>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>

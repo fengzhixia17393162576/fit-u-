@@ -1,0 +1,10 @@
+<!--pages/components/recommend3/recommend.wxml-->
+<view class="container">
+  <view class="info">
+    <text class="content">冰淇淋   127 大卡（100克）</text>
+  </view>
+  <view class="footer">
+    <image src="../../../image/home.png" class="home"></image>
+    <text bindtap="backHome">回到首页</text>
+  </view>
+</view>
